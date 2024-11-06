@@ -1,0 +1,49 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.time-display {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+#previous-record {
+  margin-top: 20px;
+  font-size: 1.2em;
+}

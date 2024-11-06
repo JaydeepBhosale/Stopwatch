@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Stopwatch</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Stopwatch</h1>
+		<div class="time-display">
+			<span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>.<span id="milliseconds">000</span>
+		</div>
+		<div class="buttons">
+			<button onclick="startStopwatch()">Start</button>
+			<button onclick="stopStopwatch()">Stop</button>
+			<button onclick="resetStopwatch()">Reset</button>
+		</div>
+		<div id="previous-record">
+			Previous Record: <span id="prev-record-display">None</span>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
